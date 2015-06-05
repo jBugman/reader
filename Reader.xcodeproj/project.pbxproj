@@ -11,18 +11,7 @@
 		F3E0D2691955EC4A00B7F191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0D2681955EC4A00B7F191 /* ViewController.swift */; };
 		F3E0D26C1955EC4A00B7F191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E0D26A1955EC4A00B7F191 /* Main.storyboard */; };
 		F3E0D26E1955EC4A00B7F191 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E0D26D1955EC4A00B7F191 /* Images.xcassets */; };
-		F3E0D27A1955EC4A00B7F191 /* ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0D2791955EC4A00B7F191 /* ReaderTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F3E0D2741955EC4A00B7F191 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F3E0D2591955EC4A00B7F191 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3E0D2601955EC4A00B7F191;
-			remoteInfo = Reader;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F3E0D2611955EC4A00B7F191 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,20 +20,10 @@
 		F3E0D2681955EC4A00B7F191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3E0D26B1955EC4A00B7F191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3E0D26D1955EC4A00B7F191 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F3E0D2731955EC4A00B7F191 /* ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E0D2781955EC4A00B7F191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3E0D2791955EC4A00B7F191 /* ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F3E0D25E1955EC4A00B7F191 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3E0D2701955EC4A00B7F191 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				F3E0D2631955EC4A00B7F191 /* Reader */,
-				F3E0D2761955EC4A00B7F191 /* ReaderTests */,
 				F3E0D2621955EC4A00B7F191 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				F3E0D2611955EC4A00B7F191 /* Reader.app */,
-				F3E0D2731955EC4A00B7F191 /* ReaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,23 +69,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F3E0D2761955EC4A00B7F191 /* ReaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				F3E0D2791955EC4A00B7F191 /* ReaderTests.swift */,
-				F3E0D2771955EC4A00B7F191 /* Supporting Files */,
-			);
-			path = ReaderTests;
-			sourceTree = "<group>";
-		};
-		F3E0D2771955EC4A00B7F191 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3E0D2781955EC4A00B7F191 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,24 +89,6 @@
 			productReference = F3E0D2611955EC4A00B7F191 /* Reader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3E0D2721955EC4A00B7F191 /* ReaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3E0D2801955EC4A00B7F191 /* Build configuration list for PBXNativeTarget "ReaderTests" */;
-			buildPhases = (
-				F3E0D26F1955EC4A00B7F191 /* Sources */,
-				F3E0D2701955EC4A00B7F191 /* Frameworks */,
-				F3E0D2711955EC4A00B7F191 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3E0D2751955EC4A00B7F191 /* PBXTargetDependency */,
-			);
-			name = ReaderTests;
-			productName = ReaderTests;
-			productReference = F3E0D2731955EC4A00B7F191 /* ReaderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,10 +100,6 @@
 				TargetAttributes = {
 					F3E0D2601955EC4A00B7F191 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					F3E0D2721955EC4A00B7F191 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = F3E0D2601955EC4A00B7F191;
 					};
 				};
 			};
@@ -179,7 +117,6 @@
 			projectRoot = "";
 			targets = (
 				F3E0D2601955EC4A00B7F191 /* Reader */,
-				F3E0D2721955EC4A00B7F191 /* ReaderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,13 +128,6 @@
 			files = (
 				F3E0D26C1955EC4A00B7F191 /* Main.storyboard in Resources */,
 				F3E0D26E1955EC4A00B7F191 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3E0D2711955EC4A00B7F191 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,23 +143,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3E0D26F1955EC4A00B7F191 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3E0D27A1955EC4A00B7F191 /* ReaderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F3E0D2751955EC4A00B7F191 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F3E0D2601955EC4A00B7F191 /* Reader */;
-			targetProxy = F3E0D2741955EC4A00B7F191 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F3E0D26A1955EC4A00B7F191 /* Main.storyboard */ = {
@@ -277,7 +191,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -314,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,6 +242,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Reader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -339,44 +254,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Reader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F3E0D2811955EC4A00B7F191 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reader.app/Reader";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		F3E0D2821955EC4A00B7F191 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Reader.app/Reader";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
@@ -399,14 +279,7 @@
 				F3E0D27F1955EC4A00B7F191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F3E0D2801955EC4A00B7F191 /* Build configuration list for PBXNativeTarget "ReaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3E0D2811955EC4A00B7F191 /* Debug */,
-				F3E0D2821955EC4A00B7F191 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
